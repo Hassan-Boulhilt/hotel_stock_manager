@@ -1,0 +1,105 @@
+/* Dark theme */
+QMainWindow {
+    background-color: #333;
+}
+
+QTableWidget {
+    gridline-color: #555;
+    background-color: #444;
+    color: #eee;
+    alternate-background-color: #3a3a3a;
+}
+
+QHeaderView::section {
+    background-color: #2a2a2a;
+    color: #eee;
+    padding: 5px;
+    border: 1px solid #555;
+}
+
+QPushButton {
+    background-color: #5a5a5a;
+    color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+QPushButton:hover {
+    background-color: #6a6a6a;
+}
+
+QPushButton:pressed {
+    background-color: #4a4a4a;
+}
+
+QTabWidget::pane {
+    border-top: 2px solid #555;
+    background-color: #444;
+}
+
+QTabBar::tab {
+    background: #2a2a2a;
+    color: #eee;
+    padding: 5px 10px;
+    border: 1px solid #555;
+    border-bottom: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+QTabBar::tab:selected {
+    background: #444;
+    margin-bottom: -1px;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: #3a3a3a;
+    color: #eee;
+}
+
+QMenuBar {
+    background-color: #2a2a2a;
+    color: #eee;
+}
+
+QMenuBar::item:selected {
+    background-color: #444;
+}
+
+QMenu {
+    background-color: #2a2a2a;
+    color: #eee;
+    border: 1px solid #555;
+}
+
+QMenu::item:selected {
+    background-color: #5a5a5a;
+}
+
+QStatusBar {
+    background-color: #2a2a2a;
+    color: #eee;
+}
+
+QLabel {
+    color: #eee;
+}
+
+QGroupBox {
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-top: 1ex;
+    font-weight: bold;
+    color: #eee;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 5px;
+    color: #eee;
+}
